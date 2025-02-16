@@ -14,8 +14,6 @@ GO_CMD ?= go
 GO_FMT ?= gofmt
 GO_SRC := $(shell find . -type f -name '*.go' -not -path "./vendor/*")
 
-BINARY_NAME ?= nv-ci-bot
-
 VERSION := 0.0.1
 
 IMAGE_REGISTRY ?= ghcr.io/nvidia
